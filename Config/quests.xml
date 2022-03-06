@@ -1,0 +1,6 @@
+<configs>
+    <remove xpath="/quests/quest[@id='tier1_fetch']/objective[@type='RandomPOIGoto']/property[@name='biome_filter_type']" />
+    <remove xpath="/quests/quest[@id='tier1_fetch']/objective[@type='RandomPOIGoto']/property[@name='biome_filter']" />
+    <remove xpath="/quests/quest[@id='tier1_clear']/objective[@type='RandomPOIGoto']/property[@name='biome_filter_type']" />
+    <remove xpath="/quests/quest[@id='tier1_clear']/objective[@type='RandomPOIGoto']/property[@name='biome_filter']" />
+</configs>

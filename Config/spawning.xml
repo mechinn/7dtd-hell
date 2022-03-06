@@ -1,0 +1,4 @@
+<configs>
+    <setattribute xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='ZombiesAll']" name="maxcount">2</setattribute>
+    <setattribute xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='EnemyAnimalsWasteland']" name="maxcount">2</setattribute>
+</configs>

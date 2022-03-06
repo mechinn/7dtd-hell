@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Hell" />
+		<Description value="Making 7 days to die like a living hell" />
+		<Author value="mechinn" />
+		<Version value="0.1" />
+		<Website value="https://github.com/mechinn/7dtd-hell" />
+	</ModInfo>
+</xml>

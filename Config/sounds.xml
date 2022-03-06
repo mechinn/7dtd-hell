@@ -1,0 +1,3 @@
+<configs>
+    <setattribute xpath="/Sounds/SoundDataNode[@name='spideralert']/AudioSource" name="name">Sounds/AudioSource_CreatureSenseAlert</setattribute>
+</configs>

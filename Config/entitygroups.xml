@@ -1,0 +1,36 @@
+<configs>
+    <append xpath="/entitygroups/entitygroup[@name='ZombiesAll']">
+        <entity name="zombieScreamer" prob="10"/>
+    </append>
+    <append xpath="/entitygroups/entitygroup[@name='ZombiesNight']">
+        <entity name="zombieScreamer" prob="10"/>
+    </append>
+    <append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']">
+        <entity name="zombieScreamer" prob="10"/>
+    </append>
+    <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
+        <entity name="zombieScreamer" prob="10"/>
+    </append>
+    <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNightNoBears']">
+        <entity name="zombieScreamer" prob="10"/>
+    </append>
+    <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight2']">
+        <entity name="zombieScreamer" prob="10"/>
+    </append>
+    <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight2NoBears']">
+        <entity name="zombieScreamer" prob="10"/>
+    </append>
+    <append xpath="/entitygroups/entitygroup[@name='ZombiesHoard']">
+        <entity name="zombieScreamer" prob="10"/>
+    </append>
+    <append xpath="/entitygroups/entitygroup[@name='ZombieScouts']">
+        <entity name="animalZombieBear" prob="50"/>
+    </append>
+    <setattribute xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/entity[@name='animalZombieBear']" name="prob">10</setattribute>
+    <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
+        <entity name="zombieScreamer" prob="10"/>
+    </append>
+    <append xpath="/entitygroups/entitygroup[@name='ZombieDogGroup']">
+        <entity name="animalZombieDog"/>
+    </append>
+</configs>
